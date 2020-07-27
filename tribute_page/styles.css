@@ -1,4 +1,114 @@
-img {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+
+  line-height: 1.5;
+  font-size: 1.25rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#title {
+  background: rgb(159, 161, 159);
+}
+
+h1 {
+  text-transform: capitalize;
+  margin-bottom: 0.75rem;
+  font-size: 4rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+#image {
   max-width: 100%;
   display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  object-fit: contain;
+  margin-bottom: 2rem;
+}
+
+#img-caption {
+  text-align: center;
+  padding-bottom: 2rem;
+  font-size: 1rem;
+}
+
+#tribute-info {
+  padding: 3rem;
+}
+
+.quotes {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1rem 2rem;
+  padding: 1rem 2rem;
+  padding-bottom: 2rem;
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.small-img {
+  width: 20vw;
+  height: 20vh;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  object-fit: contain;
+}
+
+.timeline {
+  display: grid;
+
+  justify-content: center;
+  font-size: 0.95rem;
+  text-align: justify;
+}
+
+.med-img {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  object-fit: contain;
 }
