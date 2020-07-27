@@ -41,6 +41,10 @@ h3 {
   margin-top: 2rem;
   text-align: center;
 }
+img {
+  text-align: center;
+  margin: 0 auto;
+}
 
 #image {
   max-width: 100%;
